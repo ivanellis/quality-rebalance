@@ -33,8 +33,8 @@ script.on_event(defines.events.on_script_trigger_effect, function(event)
         force = entity.force_index,
         snap_to_grid = false,
         fast_replace = true,
-        player = entity.last_user,
-        character = entity.last_user and entity.last_user.character,
+--        player = entity.last_user,
+--        character = entity.last_user and entity.last_user.character,
         spill = false,
         raise_built = true,
     }
